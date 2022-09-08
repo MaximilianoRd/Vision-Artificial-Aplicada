@@ -15,4 +15,4 @@ mask2 = np.where((mask==2)|(mask==0), 0, 1).astype('uint8')
 img = img*mask2[:,:,np.newaxis]
 plt.imshow(img)
 plt.colorbar()
-plt.show
+plt.show()
